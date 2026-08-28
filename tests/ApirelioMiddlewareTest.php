@@ -60,7 +60,7 @@ final class ApirelioMiddlewareTest extends TestCase
         self::assertSame('PAYMENT_REQUIRED', $transport->events[0]['error_code']);
         self::assertSame(['region' => 'eu-central'], $transport->events[0]['metadata']);
         self::assertSame('slim', $transport->events[0]['sdk']);
-        self::assertSame('0.1.0', $transport->events[0]['sdk_version']);
+        self::assertSame('1.0.0', $transport->events[0]['sdk_version']);
         self::assertSame(12, $transport->events[0]['response_bytes']);
     }
 
