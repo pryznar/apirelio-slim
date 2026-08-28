@@ -24,7 +24,7 @@ use Throwable;
 
 final class ApirelioMiddleware implements MiddlewareInterface
 {
-    public const VERSION = '0.1.0';
+    public const VERSION = '1.0.0';
 
     /** @var null|Closure(ServerRequestInterface): ?ApirelioCustomer */
     private ?Closure $customerResolver;
