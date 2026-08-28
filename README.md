@@ -7,7 +7,7 @@ Customer-aware API monitoring middleware for Slim 4. It captures route-level ope
 ## Install
 
 ```bash
-composer require apirelio/slim:^0.1
+composer require apirelio/slim:^1.0
 ```
 
 ## Configure

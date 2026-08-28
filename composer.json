@@ -8,7 +8,7 @@
         "php": "^8.2",
         "ext-curl": "*",
         "ext-mbstring": "*",
-        "apirelio/php-core": "^0.2",
+        "apirelio/php-core": "^1.0",
         "psr/http-message": "^1.1 || ^2.0",
         "psr/http-server-handler": "^1.0",
         "psr/http-server-middleware": "^1.0",
@@ -16,7 +16,7 @@
     },
     "require-dev": {
         "phpstan/phpstan": "^2.1",
-        "phpunit/phpunit": "^11.5",
+        "phpunit/phpunit": "^11.5 || ^12.0 || ^13.0",
         "slim/psr7": "^1.8"
     },
     "autoload": {
@@ -43,7 +43,7 @@
             "options": {
                 "symlink": true,
                 "versions": {
-                    "apirelio/php-core": "0.2.0"
+                    "apirelio/php-core": "1.0.0"
                 }
             }
         }
