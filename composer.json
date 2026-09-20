@@ -43,7 +43,7 @@
             "options": {
                 "symlink": true,
                 "versions": {
-                    "apirelio/php-core": "1.0.0"
+                    "apirelio/php-core": "1.0.1"
                 }
             }
         }

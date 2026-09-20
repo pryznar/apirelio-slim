@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1 - 2026-09-20
+
+- Refresh the tested framework and development dependency baseline.
+- Publish the PHP SDK maintenance release.
+
 ## 1.0.0 - 2026-08-28
 
 - Publish the first stable Slim SDK on PHP Core 1.x.
